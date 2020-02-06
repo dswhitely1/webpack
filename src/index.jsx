@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import styles from "./index.scss";
 
-const App = () => <h1>Hello Webpack!</h1>;
+const App = () => <h1 className={styles.title}>Hello Webpack!</h1>;
 
 ReactDOM.render(<App />, document.getElementById("root"));
